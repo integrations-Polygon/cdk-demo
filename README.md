@@ -42,7 +42,7 @@ node scripts/2_deploy_erc20.js
 
 Update the .env file with the ROOT_BRIDGE address
 ```
-ROOT_BRIDGE=<process_here>
+ROOT_ERC20=<process_here>
 ```
 
 ## 3. Deposit to Bridge Asset

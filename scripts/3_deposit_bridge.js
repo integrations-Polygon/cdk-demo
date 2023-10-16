@@ -14,9 +14,9 @@ async function main(){
     const wallet = new ethers.Wallet(privateKey, provider);
     const signer = wallet.connect(provider);
 
-    const destinationNetworkValue = 1234;  // Replace with actual value
+    const destinationNetworkValue = 1;  // Replace with actual value
     const amountValue = ethers.parseUnits("1.0", 18);  // Replace "1.0" with the actual amount. Assumes token has 18 decimals.
-    const forceUpdateGlobalExitRootValue = true;  // or false, depending on your need
+    const forceUpdateGlobalExitRootValue = false;  // or false, depending on your need
     const permitDataValue = "0x0123";  // example byte values
 
 
