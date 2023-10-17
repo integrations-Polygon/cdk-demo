@@ -6,7 +6,7 @@ This repo contains all the necessary steps to:
 3. Deposit Assets to L2.
 4. Withdraw Assets from L2.
 
-First follow the instructions [here](https://github.com/0xPolygon/cdk-validium-node#readme) to setup a local CDK node. It will setup a local L1 (geth) and a local L2 (CDK Validium Node).
+First follow the instructions [here](https://wiki.polygon.technology/docs/cdk/validium/quickstart/) to setup a local CDK node. It will setup a local L1 (geth) and a local L2 (CDK Validium Node), alongside the DAC and the Bridge Service.
 
 Once you ensure that the local L1 and L2 are running, you can run the following commands to ping the local L1 and L2.
 
