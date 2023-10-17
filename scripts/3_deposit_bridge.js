@@ -31,8 +31,8 @@ async function main(){
     // Calling bridgeAsset on Bridge Contract
 
     const destinationNetworkValue = 1;  // Replace with actual value
-    const forceUpdateGlobalExitRootValue = false;  // or false, depending on your need
-    const permitDataValue = "0x0123";  // example byte values
+    const forceUpdateGlobalExitRootValue = true;  // or false, depending on your need
+    const permitDataValue = "0x";  // example byte values
 
     const bridge_abi = require("../contracts/Bridge.json").abi
     const bridgeContract = new ethers.Contract(rootBridge, bridge_abi, signer)
