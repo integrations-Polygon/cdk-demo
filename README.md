@@ -49,3 +49,7 @@ ROOT_ERC20=<process_here>
 ```
 node scripts/3_deposit_bridge.js
 ```
+## 4. Withdraw to Bridge Asset
+```
+node scripts/4_withdraw_bridge.js
+```
