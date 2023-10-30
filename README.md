@@ -18,10 +18,15 @@ cd cdk-demo
 
 Create a .env file with these values:
 ```
+
 ROOT_USER=<your_wallet_address>
 CHILD_USER=<your_wallet_address>
 ROOT_KEY=<your_wallets_key>
 CHILD_KEY=<your_wallets_key>
+ROOT_BRIDGE=0x4C739372258826995C302CD655beE12689B97d3F
+CHILD_BRIDGE=0xff0ee8ea08cef5cb4322777f5cc3e8a584b8a4a0
+ROOT_ERC20=<root_erc20_token_address>
+CHILD_ERC20=<child_erc20_token_address>
 ROOT_RPC=http://localhost:8545
 CHILD_RPC=http://localhost:8123
 ```

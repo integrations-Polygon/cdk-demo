@@ -21,19 +21,10 @@ async function main(){
     const token_abi = require("../contracts/MyToken.json").abi
     const tokenContract = new ethers.Contract(childToken, token_abi, signer)
 
-    const approve_tx = await tokenContract.approve(
-        childBridge,
-        amountValue
-    )
-
-    // await approve_tx.wait();
-
-    console.log("Approve Transaction Hash:", approve_tx.hash)
-
     // Calling bridgeAsset on Bridge Contract
 
     const destinationNetworkValue = 0;  // Replace with actual value
-    const forceUpdateGlobalExitRootValue = true;  // or false, depending on your need
+    const forceUpdateGlobalExitRootValue = false;  // or false, depending on your need
     const permitDataValue = "0x";  // example byte values
 
     const bridge_abi = require("../contracts/Bridge.json").abi
